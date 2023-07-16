@@ -53,7 +53,7 @@ function App() {
                 </button>
                 {Spans.map((s, i) => (
                     <span key={s} className={style.text}>
-                        День {max - i}: {text}
+                        День {String(max - i).padStart(3, '0')}: {text}
                     </span>
                 ))}
                 <span
