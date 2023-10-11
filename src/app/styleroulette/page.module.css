@@ -1,0 +1,41 @@
+
+.body {
+    background-color: aqua;
+}
+
+.page{
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.container {
+    margin: 10vh 10vw;
+    width: 1200px;
+    height: 675px;
+    background: white;
+    position: relative;
+
+}
+
+
+.title {
+    color:white;
+}
+
+.frameContainer {
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: scroll;
+    position: relative; 
+
+}
+
+.frameImageContainer {
+    height:100%;
+    width: 100%;
+}
