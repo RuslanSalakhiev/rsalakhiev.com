@@ -1,5 +1,3 @@
-
-
 .Container {
 }
 
@@ -14,35 +12,5 @@
 }
 
 .Title_Caption___text_gradient {
-   background-image: linear-gradient(
-  90deg,
-  hsl(0deg 93% 55%) 0%,
-  hsl(16deg 97% 53%) 19%,
-  hsl(26deg 100% 51%) 27%,
-  hsl(33deg 100% 50%) 34%,
-  hsl(40deg 100% 48%) 41%,
-  hsl(53deg 100% 42%) 47%,
-  hsl(73deg 100% 41%) 53%,
-  hsl(99deg 94% 46%) 59%,
-  hsl(159deg 100% 43%) 66%,
-  hsl(194deg 100% 50%) 73%,
-  hsl(205deg 100% 50%) 81%,
-  hsl(260deg 100% 61%) 100%
-);
-    background-size: 100% 100%;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    display: inline-block;
-}
-
-.WordScroller {
-  display: inline-block;
-  overflow: hidden;
-  height: 1em;
-}
-
-.WordScroller_Word {
-  display: inline-block;
-  transition: transform 0.3s;
+  
 }
